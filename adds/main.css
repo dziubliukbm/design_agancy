@@ -140,5 +140,54 @@ color: grey;
 line-height: 1.5;   
 }
 
+/* portfolio-section */
+.portfolio-section{
+background-color: darkslategray;
+padding: 0 5% 12% 5%;
+text-align: center;
+}
+.portfolio-jobs{
+background-color: darkslategray;
 
-
+}
+.portfolio{
+background-color: #fff;
+}
+.portfolio-article {
+color: #fff;
+text-align: center;
+padding-top: 25%;
+padding-bottom: 10%;
+}
+.portfolio-job-wrapper{
+padding: 0 6% 0 6%;
+margin: 20px 0px 20px 0px;
+background-color: #fff;
+}
+.portfolio-image {
+max-width: 100%;
+max-height: 100%;
+}
+.square {
+text-align: left;
+padding: 60px 0 20px 0;
+font-size: 20px;
+}
+.porfolio-job-description{
+color: brown;
+text-align: left;
+font-size: 18px;
+line-height: 1.5;
+padding-bottom: 60px;
+}
+.btn {
+margin-top: 10px;
+width: 100%;
+max-width: 100%;
+color: #d9b256;
+border: 2px solid #d9b256;
+ padding: 11px 15px 11px 15px;
+ border-radius: 20px;
+background-color: darkslategray;
+font-size: 18px;
+}
