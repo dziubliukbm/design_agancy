@@ -99,7 +99,7 @@ height: 30px;
 margin: 20px;
 }
 .header_image{
-height: 30vh;
+/* height: 30vh; */
 width: 100%;
 background-image: url(./img/office-820390_1280.webp);
 background-position: center; /* Center the image */
@@ -124,7 +124,7 @@ padding: 15% 5% 15% 5%;
 }
 .article {
 color: #fff;
-font-size: 28px;
+font-size: 1.2rem;
 margin-bottom: 10%;
 }
 .article_text{
@@ -357,4 +357,49 @@ padding: 14px 0;
 padding-top: 40px;
 color: rgb(221,221,221);
 font-size: 16px;
+}
+
+@media (min-width: 768px)  { 
+#menu{
+margin-left: 88%;
+}
+.article {
+font-size: 3rem; 
+font-weight: bold;   
+}
+.article_text {
+font-size: 1rem;    
+}
+.about-us-section {
+margin: 0;
+padding: 30px 0 30px 0;
+display: flex;
+/* flex-direction: column; */
+}
+.image-wrapper {
+padding: 0 3% 0 3%;
+
+}
+.about-us-img {
+    max-width: 100%;
+    max-height: 100%;
+    width:auto;
+    height:auto;
+}
+.about-us-text {
+padding: 0 3% 0 3%;
+margin-top: 70px;
+}
+.portfolio-jobs {
+display: flex;
+}
+.portfolio-job-wrapper {
+    display: flex;
+}
+.portfolio-image {
+    width:auto;
+    height:auto;
+    height: 100%;
+    width: 100%;
+}
 }
