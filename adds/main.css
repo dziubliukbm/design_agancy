@@ -85,13 +85,18 @@ max-height: 100%;
     display: block;
     text-align: center;
 }
-#social-list{
+.social-list__top{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
+    padding-top: 20px; 
+}
+.social-icons {
+width: 30px;
+height: 30px;
+margin: 20px;
 }
 .header_image{
 height: 30vh;
@@ -190,4 +195,166 @@ border: 2px solid #d9b256;
  border-radius: 20px;
 background-color: darkslategray;
 font-size: 18px;
+}
+
+/* phrase section */
+.famous-phrase-wrapper {
+        /* padding: 0 5% 0 5%; */
+        text-align: center;
+        height: 50vh;
+        width: 100%;
+        background-image: url(./img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+}
+.style_img2 {
+    background-color: rgba(36, 36, 36, 0.56);
+    width: 100%;
+    height: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 15% 0 6% 0;
+    
+}
+.famous-phrase {
+margin: 0 auto;
+vertical-align: middle;
+text-align: center;
+width: 90%;
+height: 220px;
+background-color: #fff;
+box-sizing: border-box;  
+box-shadow: 2px 2px 0 0  darkgray ;
+}
+.famous-phrase-text {
+color: darkgray;
+padding: 30px 10px 10px 10px;
+text-align: left;
+font-size: 18px;
+}
+.famous-phrase-text-author {
+text-align: left;
+padding: 0 0 0 10px;
+font-size: 18px;
+}
+
+/* contactn form */
+.form-wrapper {
+padding: 0 5% 0 5%;
+text-align: center;
+}
+.form-article {
+padding: 25% 0 25% 0;
+font-size: 32px;
+text-align: left;
+}
+.contact-input  {
+background-color: rgb(221,221,221);
+border: none;
+width: 100%;
+box-sizing: border-box;  
+font-size: 20px;
+margin-bottom: 20px;
+padding: 15px;
+border-radius: 30px;
+}
+.contact-submit{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    color: #d9b256;
+    border: 2px solid #d9b256;
+     padding: 11px 15px 11px 15px;
+     border-radius: 20px;
+    background-color: #fff;
+    font-size: 18px;    
+    margin-bottom: 30px;
+}
+/* contacts starts here  */
+.contact-background {
+
+height: 90vh;
+background-image: url(./img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
+background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+}
+.contact-background-style {
+    background-color: rgba(77, 79, 91, 0.9);
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 5% 0 5%;
+
+}
+.contact-wrappers {
+}
+.contacts-article{
+color: #fff;
+padding-top: 50px;
+}
+.contacts-text {
+color: #fff;
+font-size: 18px;
+line-height: 1.4;
+}
+.social-list__bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    padding-top: 20px; 
+    list-style: none;
+}
+.social-icons__bottom {
+width: 22px;
+height: 22px;
+border-radius: 20%;
+padding: 10px;
+border: 1px  solid #fff ;
+fill: #fff;
+}
+.founder-image {
+margin: 30px 0 20px 0;
+height: 80px;
+width: 80px;
+border-radius: 50%;
+}
+.founder-text {
+color: #fff;
+font-size: 18px;
+}
+.founder-name{
+    border-left: 2px solid #fff;
+    padding-left: 5px;
+    font-size: 18px;
+}
+/* footer */
+.footer-wrapper{
+background-color: rgba(77, 79, 91, 1);
+height: 50vh;
+text-align: center;
+}
+.company_name {
+    color: #fff;
+    padding-top: 50px;
+}
+.list-item-link {
+text-decoration: none;
+color: rgb(221,221,221);
+margin: 20px;
+}
+.nav_bottom {
+margin-top: 20px;
+}
+.list-item {
+padding: 14px 0;
+}
+.rights {
+padding-top: 40px;
+color: rgb(221,221,221);
+font-size: 16px;
 }
