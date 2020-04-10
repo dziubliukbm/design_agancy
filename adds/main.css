@@ -389,17 +389,76 @@ padding: 0 3% 0 3%;
 .about-us-text {
 padding: 0 3% 0 3%;
 margin-top: 70px;
+max-width: 50%;
+max-height: 50%;
 }
-.portfolio-jobs {
-display: flex;
+.portfolio-article {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    }
+.portfolio-section {
+padding-bottom: 7%;
 }
 .portfolio-job-wrapper {
-    display: flex;
+display: inline-flex;
+margin: 0;
+padding: 0;
+/* width: 100%;
+height: 100%; */
+}
+.portfolio-img__wrapper {
+width: 50%;
+padding: 5% 0 5% 0;
 }
 .portfolio-image {
     width:auto;
     height:auto;
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.portfolio-description__wrp {
+padding: 5% 5% 5% 5%;
+align-items: center;
+vertical-align: middle;
+width: 50%;
+}
+.porfolio-job-description {
+ font-size: 16px;
+ width: 100%;
+}
+#kitchen {
+display: flex;
+flex-direction: row-reverse;
+}
+.btn {
+ width: 30%;
+ margin-top: 7%;
+}
+.famous-phrase-wrapper {
+height: 100%;
+}
+.famous-phrase {
+    width: 50%;
+    margin-left: 5%;
+}
+.style_img2 {
+padding: 10% 0 10% 0;
+}
+.form-article {
+padding: 10% 5% 5% 5%; 
+text-align: center;   
+}
+.contact-submit {
+width: 30%;
+margin: 30px 0 30px 0;
+}
+.contact-background {
+height: 60vh;
+}
+.social-list__bottom {
+justify-content: flex-start;
+}
+.social-icons__bottom {
+margin-right: 20px;
 }
 }
