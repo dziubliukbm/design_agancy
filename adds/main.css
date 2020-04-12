@@ -21,6 +21,7 @@ header {
 .logo_img{
 max-width: 100%;
 max-height: 100%;
+
 }
 #menu {
     width: 35px;
@@ -47,11 +48,33 @@ max-height: 100%;
     transform: translateY(4px);
 }
 .nav .list-item a{
+    
     color: black;
     text-decoration: none;
+    box-sizing: border-box;
 }
+.list-item {
+    margin: 0 auto;
+}
+
 .nav .list-item a:hover{
     font-weight: bold;
+    box-sizing: border-box;
+}
+.btn:hover {
+background-color: #d9b256;
+color: white;
+}
+.social-icons__bottom:hover {
+fill: rgba(77, 79, 91, 0.9);
+background-color: white;
+}
+.social-icons:hover {
+fill: #d9b256;
+}
+.contact-submit:hover {
+    background-color: #d9b256;
+    color: white; 
 }
 .nav .list-item {
     list-style: none;
@@ -64,9 +87,6 @@ max-height: 100%;
  #menu-bar {
      width: 100%;
     display: flex;
-    /* top: 0;
-    right: 0;
-    position: absolute; */
 }
 
 .change .bar {
@@ -99,7 +119,6 @@ height: 30px;
 margin: 20px;
 }
 .header_image{
-/* height: 30vh; */
 width: 100%;
 background-image: url(./img/office-820390_1280.webp);
 background-position: center; /* Center the image */
@@ -133,7 +152,6 @@ font-weight: bold;
 font-size: 14px;
 }
 .about-us-img {
-height: 30vh;
 width: 100%;
 max-width: 100%;
 }
@@ -195,6 +213,7 @@ border: 2px solid #d9b256;
  border-radius: 20px;
 background-color: darkslategray;
 font-size: 18px;
+transition: 0.3s;
 }
 
 /* phrase section */
@@ -263,13 +282,14 @@ border-radius: 30px;
     margin-top: 10px;
     width: 100%;
     max-width: 100%;
-    color: #d9b256;
+    color: black;
     border: 2px solid #d9b256;
      padding: 11px 15px 11px 15px;
      border-radius: 20px;
     background-color: #fff;
     font-size: 18px;    
     margin-bottom: 30px;
+    transition: 0.3s;
 }
 /* contacts starts here  */
 .contact-background {
@@ -352,6 +372,7 @@ margin-top: 20px;
 }
 .list-item {
 padding: 14px 0;
+width: 25%;
 }
 .rights {
 padding-top: 40px;
@@ -360,12 +381,15 @@ font-size: 16px;
 }
 
 @media (min-width: 768px)  { 
-#menu{
+/* #menu{
 margin-left: 88%;
-}
+} */
 .article {
 font-size: 3rem; 
 font-weight: bold;   
+}
+.logo_img {
+padding-left: 4%;
 }
 .article_text {
 font-size: 1rem;    
@@ -374,7 +398,6 @@ font-size: 1rem;
 margin: 0;
 padding: 30px 0 30px 0;
 display: flex;
-/* flex-direction: column; */
 }
 .image-wrapper {
 padding: 0 3% 0 3%;
@@ -392,6 +415,9 @@ margin-top: 70px;
 max-width: 50%;
 max-height: 50%;
 }
+.portfolio-jobs {
+background-color: #fff;
+}
 .portfolio-article {
     padding-top: 10%;
     padding-bottom: 5%;
@@ -400,11 +426,9 @@ max-height: 50%;
 padding-bottom: 7%;
 }
 .portfolio-job-wrapper {
-display: inline-flex;
+display: flex;
 margin: 0;
 padding: 0;
-/* width: 100%;
-height: 100%; */
 }
 .portfolio-img__wrapper {
 width: 50%;
@@ -420,7 +444,7 @@ padding: 5% 0 5% 0;
 padding: 5% 5% 5% 5%;
 align-items: center;
 vertical-align: middle;
-width: 50%;
+width: 40%;
 }
 .porfolio-job-description {
  font-size: 16px;
@@ -462,3 +486,96 @@ justify-content: flex-start;
 margin-right: 20px;
 }
 }
+@media(min-width: 960px) {
+    header {
+        width: 70%;
+        margin: 0 auto;
+    }
+ #menu {
+     display: none;
+ }   
+ .nav {
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: space-between;
+     /* padding: 0 5% 0 0; */
+ }
+ .logo {
+     position: sticky;
+     width: 25%;
+ }
+ .social-list__top {
+    padding: 0;
+ }
+ .header_image {
+height: 70vh;
+ }
+ .style_img {
+display: flex;
+align-items: center;
+ }
+.image-wrapper {
+padding: 0;
+}
+ .portfolio-wrapper {
+     width: 100%;
+     background-color: darkslategray;
+ }
+ .portfolio-section {
+max-height: 100%;
+ }
+
+ .about-us-section, .portfolio-section, .form-wrapper, .text_wrapper {
+     width: 70%;
+     margin: 0 auto;
+ }
+ .portfolio-job-wrapper {
+    padding: 0;
+    margin: 0;
+ }
+.portfolio-img__wrapper {
+padding: 0 ;
+}
+.portfolio-image {
+display: block;
+max-height: 300px;
+margin: 0 auto;
+}
+ .portfolio-description__wrp {
+     padding:0 5% 0 5%;
+ }
+ .btn {
+     width: 20%;
+ }
+ .famous-phrase-wrapper {
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .style_img2 {
+padding-left: 15%;
+/* width: 95%; */
+  }
+  .famous-phrase {
+      margin: 0;
+      width: 35%;
+  }
+
+  .contact-background-style {
+    padding: 0 15% 0 15%;
+    width: 70%;    
+    }
+  .footer-wrapper {
+      height: 100%;
+      padding-bottom: 3%;
+  }
+  .nav_bottom {
+      display: flex;
+      list-style: none;
+      width: 70%;
+      margin: 0 auto;
+  }
+ }
