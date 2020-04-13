@@ -563,7 +563,20 @@ padding-left: 15%;
       margin: 0;
       width: 35%;
   }
-
+  .form-wrapper {
+      display: flex;
+  }
+  .form-article {
+    padding: 15% 5% 5% 5%;
+    width: ;
+  }
+  #contact-form {
+    padding-top: 5%;
+    width: 50%;
+  }
+  .contact-submit {
+      width: 70%;
+  }
   .contact-background-style {
     padding: 0 15% 0 15%;
     width: 70%;    
@@ -577,5 +590,8 @@ padding-left: 15%;
       list-style: none;
       width: 70%;
       margin: 0 auto;
+  }
+  .company_name {
+padding-bottom: 40px;
   }
  }
