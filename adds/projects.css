@@ -412,15 +412,30 @@ margin-left: 88%;
         font-size: 1rem;
     }
 
-    .about-us-section {
-        margin: 0;
-        padding: 30px 0 30px 0;
+    .slider-wrapper {
+    display: flex;
+    }
+    .slider-block__wrapper, .project-article {
+width: 50%;
+    }
+    .project-article__name, .project-article__square, .project-article__description {
+        text-align: left;
+    }
+    .form-wrapper {
         display: flex;
     }
 
     .form-article {
-        padding: 10% 5% 5% 5%;
+        padding: 10% 5% 15% 5%;
+        margin-bottom: 15%;
         text-align: center;
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+    }
+    #contact-form {
+    padding: 5% 0 5% 0;
     }
 
     .contact-submit {
