@@ -1,3 +1,4 @@
+
 .adaptivn-slayder{ 
   max-width: 90%; 
   position: relative; 
@@ -95,4 +96,13 @@
   to { 
   opacity: 1 
   } 
+}
+@media(min-width: 960px){
+  .adaptivn-slayder .parag img  {
+    height: 50vh;
+    width: 100%; 
+  }
+  .adaptivn-slayder {
+    height: 50vh;
+  }
 }
