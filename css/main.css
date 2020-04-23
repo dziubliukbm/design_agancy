@@ -1,0 +1,727 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.logo {
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    width: 70%;
+    height: 100px;
+    position: absolute;
+}
+
+.logo_img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 30px 30px 83%;
+    cursor: pointer;
+
+}
+
+#menu-bars {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #b81568;
+    display: block;
+    border-radius: 5px;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav .list-item a {
+
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.list-item {
+    margin: 0 auto;
+}
+
+.nav .list-item a:hover {
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background-color: #d9b256;
+    color: white;
+}
+
+.social-icons__bottom:hover {
+    fill: rgba(77, 79, 91, 0.9);
+    background-color: white;
+}
+
+.social-icons:hover {
+    fill: #d9b256;
+}
+
+.contact-submit:hover {
+    background-color: #d9b256;
+    color: white;
+}
+
+.nav .list-item {
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav {
+    margin: 0;
+    display: none;
+}
+
+#menu-bar {
+    width: 100%;
+    display: flex;
+}
+
+.change .bar {
+    background-color: black;
+}
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change {
+    display: block;
+    text-align: center;
+}
+
+.social-list__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.social-icons {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
+
+.header_image {
+    width: 100%;
+    background-image: url(../adds/img/office-820390_1280.webp);
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+/*end of header */
+/* main section begins*/
+.about-us-section {
+    padding: 15% 5% 15% 5%;
+}
+
+.style_img {
+    background-color: rgba(36, 36, 36, 0.56);
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text_wrapper {
+    width: 90%;
+    padding: 10% 5% 5% 5%;
+}
+
+.article {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 10%;
+    font-family: "BauhausC-Medium";
+    text-align: center;
+}
+
+.article_text {
+    text-align: center;
+    font-family: "BauhausC-Light";
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.about-us-img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.about-us-text {
+    margin-top: 15%;
+}
+
+.about-us-text-info {
+    color: grey;
+    line-height: 1.5;
+}
+
+/* portfolio-section */
+.portfolio-section {
+    background-color: darkslategray;
+    padding: 0 5% 12% 5%;
+    text-align: center;
+}
+
+.portfolio-jobs {
+    background-color: darkslategray;
+
+}
+
+.portfolio {
+    background-color: #fff;
+}
+
+.portfolio-article {
+    color: #fff;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+.portfolio-job-wrapper {
+    padding: 0 6% 0 6%;
+    margin: 20px 0px 20px 0px;
+    background-color: #fff;
+}
+
+.portfolio-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.square {
+    text-align: left;
+    padding: 60px 0 20px 0;
+    font-size: 20px;
+}
+
+.porfolio-job-description {
+    color: brown;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    color: #d9b256;
+    border: 2px solid #d9b256;
+    padding: 11px 15px 11px 15px;
+    border-radius: 20px;
+    background-color: darkslategray;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* phrase section */
+.famous-phrase-wrapper {
+    /* padding: 0 5% 0 5%; */
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    background-image: url(../adds/img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.style_img2 {
+    background-color: rgba(36, 36, 36, 0.56);
+    width: 100%;
+    height: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 15% 0 6% 0;
+
+}
+
+.famous-phrase {
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    width: 90%;
+    height: 220px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 0 0 darkgray;
+}
+
+.famous-phrase-text {
+    color: darkgray;
+    padding: 30px 10px 10px 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.famous-phrase-text-author {
+    text-align: left;
+    padding: 0 0 0 10px;
+    font-size: 18px;
+}
+
+/* contactn form */
+.form-wrapper {
+    padding: 0 5% 0 5%;
+    text-align: center;
+}
+
+.form-article {
+    padding: 25% 0 25% 0;
+    font-size: 32px;
+    text-align: left;
+}
+
+.contact-input {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.contact-submit {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    color: black;
+    border: 2px solid #d9b256;
+    padding: 11px 15px 11px 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+/* contacts starts here  */
+.contact-background {
+
+    height: 90vh;
+    background-image: url(../adds/img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.contact-background-style {
+    background-color: rgba(77, 79, 91, 0.9);
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 5% 0 5%;
+
+}
+
+.contacts-article {
+    color: #fff;
+    padding-top: 50px;
+}
+
+.contacts-text {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.social-list__bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.social-icons__bottom {
+    width: 22px;
+    height: 22px;
+    border-radius: 20%;
+    padding: 10px;
+    border: 1px solid #fff;
+    fill: #fff;
+}
+
+.founder-image {
+    margin: 30px 0 20px 0;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.founder-text {
+    color: #fff;
+    font-size: 18px;
+}
+
+.founder-name {
+    border-left: 2px solid #fff;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+/* footer */
+.footer-wrapper {
+    background-color: rgba(77, 79, 91, 1);
+    height: 50vh;
+    text-align: center;
+}
+
+.company_name {
+    color: #fff;
+    padding-top: 50px;
+}
+
+.list-item-link {
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    margin: 20px;
+}
+
+.nav_bottom {
+    margin-top: 20px;
+}
+
+.list-item {
+    padding: 14px 0;
+    /* width: 25%; */
+}
+
+.rights {
+    padding-top: 40px;
+    color: rgb(221, 221, 221);
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+
+    /* #menu{
+margin-left: 88%;
+} */
+    .article {
+        font-size: 6rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .logo_img {
+        padding-left: 4%;
+    }
+
+    .article_text {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .about-us-section {
+        margin: 0;
+        padding: 30px 0 30px 0;
+        display: flex;
+    }
+
+    .image-wrapper {
+        padding: 0 3% 0 3%;
+
+    }
+
+    .about-us-img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .about-us-text {
+        padding: 0 3% 0 3%;
+        margin-top: 70px;
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .portfolio-jobs {
+        background-color: #fff;
+    }
+
+    .portfolio-article {
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .portfolio-section {
+        padding-bottom: 7%;
+    }
+
+    .portfolio-job-wrapper {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .portfolio-img__wrapper {
+        width: 50%;
+        padding: 5% 0 5% 0;
+    }
+
+    .portfolio-image {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .portfolio-description__wrp {
+        padding: 5% 5% 5% 5%;
+        align-items: center;
+        vertical-align: middle;
+        width: 40%;
+    }
+
+    .porfolio-job-description {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #kitchen {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .btn {
+        width: 30%;
+        margin-top: 7%;
+    }
+
+    .famous-phrase-wrapper {
+        height: 100%;
+    }
+
+    .famous-phrase {
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .style_img2 {
+        padding: 10% 0 10% 0;
+    }
+
+    .form-article {
+        padding: 10% 5% 5% 5%;
+        text-align: center;
+    }
+
+    .contact-submit {
+        width: 30%;
+        margin: 30px 0 30px 0;
+    }
+
+    .contact-background {
+        height: 60vh;
+    }
+
+    .social-list__bottom {
+        justify-content: flex-start;
+    }
+
+    .social-icons__bottom {
+        margin-right: 20px;
+    }
+}
+
+@media(min-width: 960px) {
+    header {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 0 5% 0 0; */
+    }
+
+    .logo {
+        position: sticky;
+        width: 25%;
+    }
+
+    .social-list__top {
+        padding: 0;
+    }
+
+    .header_image {
+        height: 70vh;
+    }
+
+    .style_img {
+        display: flex;
+        align-items: center;
+    }
+
+    .image-wrapper {
+        padding: 0;
+    }
+
+    .portfolio-wrapper {
+        width: 100%;
+        background-color: darkslategray;
+    }
+
+    .portfolio-section {
+        max-height: 100%;
+    }
+
+    .about-us-section,
+    .portfolio-section,
+    .form-wrapper,
+    .text_wrapper {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .portfolio-job-wrapper {
+        padding: 0;
+        margin: 0;
+    }
+
+    .portfolio-img__wrapper {
+        padding: 0;
+    }
+
+    .portfolio-image {
+        display: block;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+
+    .portfolio-description__wrp {
+        padding: 0 5% 0 5%;
+    }
+
+    .btn {
+        width: 20%;
+    }
+
+    .famous-phrase-wrapper {
+        min-height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .style_img2 {
+        padding-left: 15%;
+        /* width: 95%; */
+    }
+
+    .famous-phrase {
+        margin: 0;
+        width: 35%;
+    }
+
+    .form-wrapper {
+        display: flex;
+    }
+
+    .form-article {
+        padding: 15% 5% 5% 5%;
+        width: ;
+    }
+
+    #contact-form {
+        padding-top: 5%;
+        width: 50%;
+    }
+
+    .contact-submit {
+        width: 70%;
+    }
+
+    .contact-background-style {
+        padding: 0 15% 0 15%;
+        width: 70%;
+    }
+
+    .footer-wrapper {
+        height: 100%;
+        padding-bottom: 3%;
+    }
+
+    .nav_bottom {
+        display: flex;
+        list-style: none;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .company_name {
+        padding-bottom: 40px;
+    }
+
+}
