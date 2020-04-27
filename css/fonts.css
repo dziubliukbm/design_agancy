@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "BauhausC-Light";
+    src: url("../fonts/BauhausC-Medium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/BauhausCLightRegular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "BauhausC-Medium";
+    src: url("../fonts/BauhausC-Medium.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/BauhausC-Medium.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: 550;
+    font-style: normal;
+  }

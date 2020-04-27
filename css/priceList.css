@@ -30,7 +30,7 @@ header {
 #menu {
     width: 35px;
     height: 30px;
-    margin: 30px 30px 30px 83%;
+    margin: 30px 30px 30px 80%;
     cursor: pointer;
 
 }
@@ -71,8 +71,22 @@ header {
     font-weight: bold;
     box-sizing: border-box;
 }
-
-.btn:hover {
+.btn {
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+        max-width: 100%;
+        color: #d9b256;
+        border: 2px solid #d9b256;
+        padding: 11px 15px 11px 15px;
+        border-radius: 20px;
+        background-color: transparent;
+        font-size: 18px;
+        transition: 0.3s;
+    
+}
+.btn, .download:hover {
     background-color: #d9b256;
     color: white;
 }
@@ -137,26 +151,20 @@ header {
 }
 
 .social-icons {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 20px;
 }
 
 .header_image {
     width: 100%;
-    background-image: url(./img/office-820390_1280.webp);
+    background-image: url(../adds/img/office-820390_1280.webp);
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
     /* Do not repeat the image */
     background-size: cover;
     /* Resize the background image to cover the entire container */
-}
-
-/*end of header */
-/* main section begins*/
-.about-us-section {
-    padding: 15% 5% 15% 5%;
 }
 
 .style_img {
@@ -166,147 +174,66 @@ header {
     max-width: 100%;
     max-height: 100%;
 }
-
 .text_wrapper {
     width: 90%;
     padding: 10% 5% 5% 5%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .article {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 10%;
+    text-align: center;
+    font-family: "BauhausC-Medium";
+
 }
 
-.article_text {
-    color: #fff;
-    font-weight: bold;
-    font-size: 14px;
-}
+/*end of header */
 
-.about-us-img {
-    width: 100%;
-    max-width: 100%;
-}
-
-.about-us-text {
-    margin-top: 15%;
-}
-
-.about-us-text-info {
-    color: grey;
-    line-height: 1.5;
-}
-
-/* portfolio-section */
-.portfolio-section {
-    background-color: darkslategray;
+/* price-list__section start */
+.price-list__section {
     padding: 0 5% 12% 5%;
-    text-align: center;
 }
-
-.portfolio-jobs {
-    background-color: darkslategray;
-
+.image {
+    padding: 5%;
+    background-image: url(../adds/img/шото\ там.png);
+    width: 100vw;
+    height: 400px;
+    background-position-y: -140px;
+    background-size: cover;   
 }
-
-.portfolio {
-    background-color: #fff;
+.price {
+padding-top: 20px;
+text-align: right;
 }
-
-.portfolio-article {
-    color: #fff;
-    text-align: center;
-    padding-top: 25%;
-    padding-bottom: 10%;
+.services-article {
+padding: 7% 0 7% 0 ;
 }
-
-.portfolio-job-wrapper {
-    padding: 0 6% 0 6%;
-    margin: 20px 0px 20px 0px;
-    background-color: #fff;
-}
-
-.portfolio-image {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.square {
-    text-align: left;
-    padding: 60px 0 20px 0;
-    font-size: 20px;
-}
-
-.porfolio-job-description {
-    color: brown;
-    text-align: left;
-    font-size: 18px;
-    line-height: 1.5;
-    padding-bottom: 60px;
-}
-
-.btn {
+.services{
     margin-top: 10px;
-    width: 100%;
-    max-width: 100%;
-    color: #d9b256;
+    color : #616161;
+}
+.dowload-btn {
+margin: 0 auto;
+width: 90%;
+
+}
+.download {
+    color: black;
     border: 2px solid #d9b256;
     padding: 11px 15px 11px 15px;
     border-radius: 20px;
-    background-color: darkslategray;
+    background-color: #fff;
     font-size: 18px;
     transition: 0.3s;
-}
-
-/* phrase section */
-.famous-phrase-wrapper {
-    /* padding: 0 5% 0 5%; */
-    text-align: center;
-    height: 50vh;
     width: 100%;
-    background-image: url(./img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Resize the background image to cover the entire container */
-}
-
-.style_img2 {
-    background-color: rgba(36, 36, 36, 0.56);
-    width: 100%;
-    height: 80%;
-    max-width: 100%;
-    max-height: 100%;
-    padding: 15% 0 6% 0;
 
 }
+/* price-list__section end */
 
-.famous-phrase {
-    margin: 0 auto;
-    vertical-align: middle;
-    text-align: center;
-    width: 90%;
-    height: 220px;
-    background-color: #fff;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 0 0 darkgray;
-}
 
-.famous-phrase-text {
-    color: darkgray;
-    padding: 30px 10px 10px 10px;
-    text-align: left;
-    font-size: 18px;
-}
-
-.famous-phrase-text-author {
-    text-align: left;
-    padding: 0 0 0 10px;
-    font-size: 18px;
-}
 
 /* contactn form */
 .form-wrapper {
@@ -347,9 +274,8 @@ header {
 
 /* contacts starts here  */
 .contact-background {
-
     height: 90vh;
-    background-image: url(./img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
+    background-image: url(../adds/img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
@@ -448,123 +374,84 @@ header {
     color: rgb(221, 221, 221);
     font-size: 16px;
 }
-
+.project-article {
+    margin: 15px;
+    padding: 10px;
+}
+.project-article__name {
+    color: #d9b256;
+    text-align: center;
+    
+}
+.project-article__square {
+    text-align: center;
+   margin-top: 25px;
+}
+.project-article__description {
+margin-top: 20px;
+/* text-align: justify; */
+color: darkgray;
+}
 @media (min-width: 768px) {
-
-    /* #menu{
+ 
+    #menu{
 margin-left: 88%;
-} */
+}
     .article {
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: bold;
     }
 
     .logo_img {
         padding-left: 4%;
     }
-
-    .article_text {
-        font-size: 1rem;
-    }
-
-    .about-us-section {
-        margin: 0;
-        padding: 30px 0 30px 0;
+   
+    .projects-list {
         display: flex;
-    }
-
-    .image-wrapper {
-        padding: 0 3% 0 3%;
-
-    }
-
-    .about-us-img {
-        max-width: 100%;
-        max-height: 100%;
-        width: auto;
-        height: auto;
-    }
-
-    .about-us-text {
-        padding: 0 3% 0 3%;
-        margin-top: 70px;
-        max-width: 50%;
-        max-height: 50%;
-    }
-
-    .portfolio-jobs {
-        background-color: #fff;
-    }
-
-    .portfolio-article {
-        padding-top: 10%;
-        padding-bottom: 5%;
-    }
-
-    .portfolio-section {
-        padding-bottom: 7%;
-    }
-
-    .portfolio-job-wrapper {
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
-
-    .portfolio-img__wrapper {
-        width: 50%;
-        padding: 5% 0 5% 0;
-    }
-
-    .portfolio-image {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .portfolio-description__wrp {
-        padding: 5% 5% 5% 5%;
-        align-items: center;
-        vertical-align: middle;
-        width: 40%;
-    }
-
-    .porfolio-job-description {
+        padding: 20px 10px 20px 10px;
         font-size: 16px;
-        width: 100%;
+        justify-content: space-between;
     }
-
-    #kitchen {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
     .btn {
-        width: 30%;
-        margin-top: 7%;
+        width: 60%;
     }
-
-    .famous-phrase-wrapper {
-        height: 100%;
+    .project-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-
-    .famous-phrase {
+    
+    .image {
+        padding: 5%;
+        width: 100vw;
+        height: 900px;
+        background-position-y: -140px;
+        background-size: cover;   
+    }
+    .dowload-btn {
+        margin: 0 auto;
         width: 50%;
-        margin-left: 5%;
-    }
-
-    .style_img2 {
-        padding: 10% 0 10% 0;
+        
+        }
+    .form-wrapper {
+        display: flex;
     }
 
     .form-article {
-        padding: 10% 5% 5% 5%;
+        padding: 10% 5% 15% 5%;
+        margin-bottom: 15%;
         text-align: center;
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+    }
+    #contact-form {
+    padding: 5% 0 5% 0;
     }
 
     .contact-submit {
-        width: 30%;
+        width: 60%;
         margin: 30px 0 30px 0;
     }
 
@@ -583,10 +470,9 @@ margin-left: 88%;
 
 @media(min-width: 960px) {
     header {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
-
     #menu {
         display: none;
     }
@@ -596,87 +482,80 @@ margin-left: 88%;
         text-align: center;
         align-items: center;
         justify-content: space-between;
-        /* padding: 0 5% 0 0; */
     }
 
     .logo {
         position: sticky;
-        width: 25%;
+        width: 13%;
     }
-
+    
+  
     .social-list__top {
         padding: 0;
     }
 
     .header_image {
-        height: 70vh;
+        height: 50vh;
+    }
+    .article {
+        margin-bottom: 50px;
+    }
+    .text_wrapper {
+        padding: 5%;
     }
 
     .style_img {
         display: flex;
         align-items: center;
     }
-
-    .image-wrapper {
-        padding: 0;
+    .price-list__section {
+    background-color: grey;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    overflow: hidden;
+    
     }
+    .price{
+        /* padding-top: 30px; */
+        width:30vw;
+        display: block;
+        background-color: #fff;
 
-    .portfolio-wrapper {
-        width: 100%;
-        background-color: darkslategray;
     }
-
-    .portfolio-section {
-        max-height: 100%;
+   
+    
+    .service-block {
+        display: flex;
+        /* width: 80%; */
+        margin: 0 auto;
     }
-
-    .about-us-section,
-    .portfolio-section,
+    #service-block_1{
+        margin-top: 5%;
+    }
+    #service-block_2{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 5%;
+    }
+    .dowload-btn {
+        margin-top: 70px;
+    }
+    .services-text{
+       
+        width: 35vw;
+        background-color: #fff;
+        padding: 0 0 0 8% ;
+    }
+    .image {
+        width: 35vw;
+        height: 700px; 
+    }
     .form-wrapper,
     .text_wrapper {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
-    }
-
-    .portfolio-job-wrapper {
-        padding: 0;
-        margin: 0;
-    }
-
-    .portfolio-img__wrapper {
-        padding: 0;
-    }
-
-    .portfolio-image {
-        display: block;
-        max-height: 300px;
-        margin: 0 auto;
-    }
-
-    .portfolio-description__wrp {
-        padding: 0 5% 0 5%;
-    }
-
-    .btn {
-        width: 20%;
-    }
-
-    .famous-phrase-wrapper {
-        min-height: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .style_img2 {
-        padding-left: 15%;
-        /* width: 95%; */
-    }
-
-    .famous-phrase {
-        margin: 0;
-        width: 35%;
     }
 
     .form-wrapper {
@@ -685,7 +564,6 @@ margin-left: 88%;
 
     .form-article {
         padding: 15% 5% 5% 5%;
-        width: ;
     }
 
     #contact-form {
@@ -694,12 +572,12 @@ margin-left: 88%;
     }
 
     .contact-submit {
-        width: 70%;
+        width: 80%;
     }
 
     .contact-background-style {
         padding: 0 15% 0 15%;
-        width: 70%;
+        width: 80%;
     }
 
     .footer-wrapper {
@@ -710,12 +588,11 @@ margin-left: 88%;
     .nav_bottom {
         display: flex;
         list-style: none;
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
 
     .company_name {
         padding-bottom: 40px;
     }
-
 }

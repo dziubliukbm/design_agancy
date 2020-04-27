@@ -137,14 +137,14 @@ header {
 }
 
 .social-icons {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 20px;
 }
 
 .header_image {
     width: 100%;
-    background-image: url(./img/office-820390_1280.webp);
+    background-image: url(../adds/img/office-820390_1280.webp);
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
@@ -176,9 +176,13 @@ header {
     color: #fff;
     font-size: 1.2rem;
     margin-bottom: 10%;
+    font-family: "BauhausC-Medium";
+    text-align: center;
 }
 
 .article_text {
+    text-align: center;
+    font-family: "BauhausC-Light";
     color: #fff;
     font-weight: bold;
     font-size: 14px;
@@ -265,7 +269,7 @@ header {
     text-align: center;
     height: 50vh;
     width: 100%;
-    background-image: url(./img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
+    background-image: url(../adds/img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
@@ -349,7 +353,7 @@ header {
 .contact-background {
 
     height: 90vh;
-    background-image: url(./img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
+    background-image: url(../adds/img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
@@ -455,8 +459,9 @@ header {
 margin-left: 88%;
 } */
     .article {
-        font-size: 3rem;
+        font-size: 6rem;
         font-weight: bold;
+        margin-bottom: 30px;
     }
 
     .logo_img {
@@ -464,7 +469,8 @@ margin-left: 88%;
     }
 
     .article_text {
-        font-size: 1rem;
+        font-size: 2rem;
+        margin-bottom: 30px;
     }
 
     .about-us-section {
