@@ -197,9 +197,7 @@ header {
     padding: 0 5% 12% 5%;
 }
 .image {
-    padding: 5%;
     background-image: url(../adds/img/шото\ там.png);
-    width: 100vw;
     height: 400px;
     background-position-y: -140px;
     background-size: cover;   
@@ -274,7 +272,6 @@ width: 90%;
 
 /* contacts starts here  */
 .contact-background {
-    height: 90vh;
     background-image: url(../adds/img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
     background-position: center;
     /* Center the image */
@@ -290,7 +287,7 @@ width: 90%;
     height: 100%;
     max-width: 100%;
     max-height: 100%;
-    padding: 0 5% 0 5%;
+    padding: 0 5% 20px 5%;
 
 }
 
@@ -345,8 +342,8 @@ width: 90%;
 /* footer */
 .footer-wrapper {
     background-color: rgba(77, 79, 91, 1);
-    height: 50vh;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .company_name {
@@ -422,8 +419,6 @@ margin-left: 88%;
     }
     
     .image {
-        padding: 5%;
-        width: 100vw;
         height: 900px;
         background-position-y: -140px;
         background-size: cover;   
@@ -455,9 +450,7 @@ margin-left: 88%;
         margin: 30px 0 30px 0;
     }
 
-    .contact-background {
-        height: 60vh;
-    }
+    
 
     .social-list__bottom {
         justify-content: flex-start;
@@ -518,8 +511,7 @@ margin-left: 88%;
     
     }
     .price{
-        /* padding-top: 30px; */
-        width:30vw;
+        padding-top: 30px;
         display: block;
         background-color: #fff;
 
@@ -543,8 +535,7 @@ margin-left: 88%;
         margin-top: 70px;
     }
     .services-text{
-       
-        width: 35vw;
+        height: 700px;
         background-color: #fff;
         padding: 0 0 0 8% ;
     }
@@ -576,7 +567,7 @@ margin-left: 88%;
     }
 
     .contact-background-style {
-        padding: 0 15% 0 15%;
+        padding: 0 10% 20px 10%;
         width: 80%;
     }
 
