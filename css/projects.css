@@ -277,7 +277,6 @@ a {
 
 /* contacts starts here  */
 .contact-background {
-    height: 90vh;
     background-image: url(../adds/img/photo-of-woman-sitting-on-wheelchair-4064550.jpg);
     background-position: center;
     /* Center the image */
@@ -293,7 +292,7 @@ a {
     height: 100%;
     max-width: 100%;
     max-height: 100%;
-    padding: 0 5% 0 5%;
+    padding: 0 5% 20px 5%;
 
 }
 
@@ -347,8 +346,8 @@ a {
 
 /* footer */
 .footer-wrapper {
+    padding-bottom: 20px;
     background-color: rgba(77, 79, 91, 1);
-    height: 50vh;
     text-align: center;
 }
 
@@ -433,7 +432,6 @@ margin-left: 88%;
     padding: 5% 0 5% 0;
     width: 80%;
     margin: 0 auto;
-    height: 60vh;
     }
     .slider-block__wrapper, .project-article {
 width: 50%;
@@ -463,9 +461,7 @@ width: 50%;
         margin: 30px 0 30px 0;
     }
 
-    .contact-background {
-        height: 60vh;
-    }
+    
 
     .social-list__bottom {
         justify-content: flex-start;
@@ -542,13 +538,14 @@ width: 50%;
     }
 
     .contact-background-style {
-        padding: 0 15% 0 15%;
-        width: 80%;
+        padding: 0 15% 20px 15%;
+        width: 70%;
     }
 
     .footer-wrapper {
         height: 100%;
         padding-bottom: 3%;
+        
     }
 
     .nav_bottom {
