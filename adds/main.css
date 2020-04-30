@@ -419,7 +419,7 @@ header {
 /* footer */
 .footer-wrapper {
     background-color: rgba(77, 79, 91, 1);
-    height: 50vh;
+    /* height: 50vh; */
     text-align: center;
 }
 
@@ -630,9 +630,9 @@ margin-left: 88%;
         max-height: 100%;
     }
 
-    .about-us-section,
+    /* .about-us-section,
     .portfolio-section,
-    .form-wrapper,
+    .form-wrapper, */
     .text_wrapper {
         width: 70%;
         margin: 0 auto;
